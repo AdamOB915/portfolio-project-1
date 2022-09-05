@@ -24,7 +24,16 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 30px;
 }
+
+.zoom {
+    transition: transform .5s; /*Time it takes to zoom*/
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /*Amount of zoom*/
+  } 
 
 #menu li {
     font-size: 150%;
