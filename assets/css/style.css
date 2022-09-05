@@ -9,4 +9,19 @@
 body {
     font-family: 'Source Code Pro', monospace;
     font-weight: 600;
+    color: #3a3a3a
+}
+
+/* Heading and logo style */
+
+h1, h2 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
