@@ -64,6 +64,38 @@ h1, h2 {
 
 #main-outer {
     height: 600px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
+}
+
+/* About section */
+
+.welcome-image {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/question\ mark\ backgound.jpg') fixed;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 280%;
+}
+
+#about section {
+    height: 600px;
+}
+
+.welcome-section-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: green;
+    text-align: right;
+}
+
+.welcome-section-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
 }
