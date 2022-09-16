@@ -203,6 +203,7 @@ hr {
     margin: 150px 0 0 200px;
     background: rgba(255, 0, 0, 0.9);
     border-radius: 40px;
+    cursor: pointer;
 }
 
 /* footer */
@@ -225,6 +226,9 @@ footer {
     padding: 5%;
     color: white
 }
+
+
+
 
 
 
