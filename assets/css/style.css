@@ -89,7 +89,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: green;
     text-align: center;
 }
 
@@ -97,17 +96,55 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: blue;
     text-align: center;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
     text-align: center;
+    background-color: rgba(204, 96, 1, 0.9);
 }
 
+.left-about-section-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin: 50px 0 100px 0;
+    background-color: rgba(204, 96, 1, 0.9);
+}
+
+.left-about-section-heading h2 {
+    text-align: left;
+}
+
+.left-about-section-heading p {
+    text-align: left;
+}
+
+.right-about-section-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin: 50px 0 100px 0;
+    background-color: rgba(204, 96, 1, 0.9);
+}
+
+.right-about-section-heading h2 {
+    text-align: right;
+}
+
+.right-about-section-heading p {
+    text-align: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
 
 
 
