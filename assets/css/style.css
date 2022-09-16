@@ -35,6 +35,10 @@ h1, h2 {
     transform: scale(1.1); /*Amount of zoom*/
   } 
 
+  .active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 #menu li {
     font-size: 150%;
     letter-spacing: 4px;
