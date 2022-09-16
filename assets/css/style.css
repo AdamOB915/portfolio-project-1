@@ -85,7 +85,7 @@ h1, h2 {
     height: 400px;
 }
 
-.about-section-left {
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -93,7 +93,7 @@ h1, h2 {
     text-align: center;
 }
 
-.about-section-right {
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
@@ -101,7 +101,7 @@ h1, h2 {
     text-align: center;
 }
 
-.about-section-center {
+#center-about {
     width: 33%;
     margin: 0 auto;
     background-color: red;
