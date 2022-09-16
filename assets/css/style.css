@@ -104,6 +104,7 @@ h1, h2 {
     margin: 0 auto;
     text-align: center;
     background-color: rgba(204, 96, 1, 0.9);
+    border-radius: 10px;
 }
 
 .left-about-section-heading {
@@ -113,6 +114,7 @@ h1, h2 {
     clear: both;
     margin: 50px 0 100px 0;
     background-color: rgba(204, 96, 1, 0.9);
+    border-radius: 10px;
 }
 
 .left-about-section-heading h2 {
@@ -130,6 +132,7 @@ h1, h2 {
     clear: both;
     margin: 50px 0 100px 0;
     background-color: rgba(204, 96, 1, 0.9);
+    border-radius: 10px;
 }
 
 .right-about-section-heading h2 {
