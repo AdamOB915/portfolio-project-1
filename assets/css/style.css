@@ -227,6 +227,37 @@ footer {
     color: white
 }
 
+/* Lifehacks Section */
+
+#lifehacks-heading {
+    text-align: center;
+    font-size: 250%;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid #3a3a3a;
+}
+
+#lifehacks-image {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/lifehacks-background.jpg');
+}
+
+.catagroies {
+    display: flex;
+    padding-right: 100px;
+  }
+  
+  .submit-button-2 {
+    height: 100px;
+    width: 270px;
+    font-size: 150%;
+    margin: 200px 0 0 100px;
+    background: rgba(255, 0, 0, 0.9);
+    border-radius: 40px;
+    cursor: pointer;
+}
+  
+
 
 
 
