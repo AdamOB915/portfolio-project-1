@@ -12,6 +12,7 @@ body {
     color: #3a3a3a;
 }
 
+
 /* Heading and logo style */
 
 h1,
@@ -212,7 +213,8 @@ hr {
 /* footer */
 
 footer {
-    background: black;
+   width:100%;
+   background: black;
 }
 
 .social-networks {
@@ -283,6 +285,20 @@ footer {
 }
 
 #main-outer-travel {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Form */
+
+#form-image {
+height: 800px;
+width: 100%;
+background: url('../css/images/form-image.jpg');
+}
+
+#form-outer {
+    height: 800px;
     width: 100%;
     overflow: hidden;
 }
