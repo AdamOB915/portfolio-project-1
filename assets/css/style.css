@@ -14,7 +14,8 @@ body {
 
 /* Heading and logo style */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Source Code Pro', monospace;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -28,14 +29,16 @@ h1, h2 {
 }
 
 .zoom {
-    transition: transform .5s; /*Time it takes to zoom*/
-  }
-  
-  .zoom:hover {
-    transform: scale(1.1); /*Amount of zoom*/
-  } 
+    transition: transform .5s;
+    /*Time it takes to zoom*/
+}
 
-  .active {
+.zoom:hover {
+    transform: scale(1.1);
+    /*Amount of zoom*/
+}
+
+.active {
     border: 1px solid #3a3a3a;
     background-color: rgba(255, 0, 0, 0.5);
     border-radius: 10px;
@@ -174,7 +177,7 @@ hr {
     width: 350px;
     float: left;
     margin: 0 auto;
-} 
+}
 
 #submit-box-2 {
     height: 300px;
@@ -216,7 +219,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -237,7 +240,7 @@ footer {
 }
 
 #lifehacks-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url('../css/images/lifehacks-background.jpg');
 }
@@ -245,9 +248,9 @@ footer {
 .catagroies {
     display: flex;
     padding-right: 100px;
-  }
-  
-  .submit-button-2 {
+}
+
+.submit-button-2 {
     height: 100px;
     width: 270px;
     font-size: 150%;
@@ -256,10 +259,30 @@ footer {
     border-radius: 40px;
     cursor: pointer;
 }
-  
 
+/* Travel section */
 
+.travel-image {
+    height: auto;
+    width: 300px;
+    padding: 100px 0 0 100px;
+}
 
+.travel-text {
+    height: auto;
+    width: 300px;
+    background: rgba(255, 0, 0, 0.9);
+    text-align: left;
+    margin: 110px 200px 0 0;
+    padding: 50px;
+    float: right;
+}
 
+#travel-section {
+    height: auto;
+}
 
-
+#main-outer-travel {
+    width: 100%;
+    overflow: hidden;
+}
