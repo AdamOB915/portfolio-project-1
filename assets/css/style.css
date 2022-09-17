@@ -291,14 +291,17 @@ footer {
 
 /* Form */
 
-#form-image {
-height: 800px;
-width: 100%;
-background: url('../css/images/form-image.jpg');
-}
-
 #form-outer {
     height: 800px;
     width: 100%;
     overflow: hidden;
 }
+
+.form-section {
+    clear: left;
+    background: url('../css/images/form-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
