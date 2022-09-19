@@ -200,7 +200,17 @@ hr {
 }
 
 
-.submit-button {
+.submit-button-a {
+    height: 100px;
+    width: 270px;
+    font-size: 150%;
+    margin: 150px 0 0 200px;
+    background: rgba(255, 0, 0, 0.9);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.submit-button-b {
     height: 100px;
     width: 270px;
     font-size: 150%;
@@ -366,6 +376,8 @@ footer {
 
 /* Media Querys */
 
+/* About section (1200px) */
+
 @media screen and (max-width:1200px) {
     #about-section {
         width: 65%;
@@ -400,7 +412,8 @@ footer {
         margin-top: 50px;
     }
 
-
-    
+    #menu {
+        clear: both;
+    }
 }
     
